@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                           &mo 3      &kp N6  &kp N7             &kp N8       &kp N9           &kp N0         &kp MINUS
-&kp TAB    &kp Q      &kp W           &kp E        &kp R             &kp T   &none                                                            &kp DEL    &kp Y   &kp U              &kp I        &kp O            &kp P          &kp BSLH
-&kp ESC    &kp A      &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &none     &kp LCTRL  &kp LALT        &kp LGUI       &kp RCTRL    &none      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z      &kp X           &kp C        &kp V             &kp B                        &kp HOME        &kp PG_UP                              &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH       &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS        &kp LEFT     &kp RIGHT                 &kp BSPC  &lt 4 TAB  &kp ESCAPE      &kp RIGHT_GUI  &lt 4 ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT         &kp RBKT       &mo 2
+&kp EQUAL  &kp N1     &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                            &mo 3      &kp N6  &kp N7             &kp N8       &kp N9           &kp N0         &kp MINUS
+&kp TAB    &kp Q      &kp W           &kp E        &kp R             &kp T   &none                                                             &kp DEL    &kp Y   &kp U              &kp I        &kp O            &kp P          &kp BSLH
+&kp ESC    &kp A      &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &none     &kp LCTRL     &kp LALT      &kp LGUI       &kp RCTRL    &none      &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z      &kp X           &kp C        &kp V             &kp B                           &kp HOME      &kp PG_UP                              &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH       &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS        &kp LEFT     &kp RIGHT                 &kp BSPC  &lt 4 ESCAPE  &kp TAB       &kp RIGHT_GUI  &lt 4 ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT         &kp RBKT       &mo 2
             >;
         };
 
@@ -71,11 +71,11 @@
         sym {
             display-name = "Sym";
             bindings = <
-&trans  &trans     &trans                &trans                 &trans             &trans           &trans                                            &trans  &trans  &trans    &trans          &trans        &trans           &trans
-&trans  &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp EXCL         &kp PIPE                                          &trans  &trans  &trans    &trans          &trans        &trans           &trans
-&trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &kp EQUAL        &kp ASTERISK  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS           &kp KP_SUBTRACT                        &trans      &trans                  &trans  &trans    &trans          &trans        &trans           &trans
-&trans  &trans     &trans                &trans                 &trans                              &trans        &trans  &trans      &trans  &trans  &trans          &trans    &trans          &trans        &trans           &trans
+&trans  &trans             &trans                &trans                 &trans     &trans     &trans                                      &trans  &trans          &trans          &trans        &trans        &trans    &trans
+&trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &trans     &trans                                      &trans  &trans          &kp EXCL        &kp PIPE      &trans        &kp PLUS  &trans
+&trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp ASTRK  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp UP_ARROW  &trans    &trans
+&trans  &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans                     &trans      &trans                  &trans          &kp KP_MINUS    &trans        &trans        &trans    &trans
+&trans  &trans             &trans                &trans                 &trans                &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans        &trans    &trans
             >;
         };
 
