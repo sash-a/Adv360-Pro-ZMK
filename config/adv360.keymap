@@ -71,11 +71,11 @@
         sym {
             display-name = "Sym";
             bindings = <
-&trans  &trans             &trans                &trans                 &trans     &trans     &trans                                      &trans  &trans          &trans          &trans        &trans        &trans    &trans
-&trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &trans     &trans                                      &trans  &trans          &kp EXCL        &kp PIPE      &trans        &kp PLUS  &trans
-&trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp ASTRK  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp UP_ARROW  &trans    &trans
-&trans  &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans                     &trans      &trans                  &trans          &kp KP_MINUS    &trans        &trans        &trans    &trans
-&trans  &trans             &trans                &trans                 &trans                &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans        &trans    &trans
+&trans  &trans             &trans                &trans                 &trans     &trans     &trans                                      &trans  &trans          &trans          &trans        &trans     &trans    &trans
+&trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &trans     &trans                                      &trans  &trans          &kp EXCL        &kp PIPE      &trans     &kp PLUS  &trans
+&trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER  &kp ASTRK  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans    &trans
+&trans  &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans                     &trans      &trans                  &trans          &kp KP_MINUS    &trans        &trans     &trans    &trans
+&trans  &trans             &trans                &trans                 &trans                &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans     &trans    &trans
             >;
         };
 
